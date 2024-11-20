@@ -1,0 +1,429 @@
+* {
+    text-decoration: none;
+}
+
+@import url('https://fonts.cdnfonts.com/css/the-wild-breath-of-zelda');
+
+:root {
+    --p--: rgb(28, 28, 28);
+    --b--: rgba(164, 243, 229, 0.163);
+}
+
+body {
+    background-image: url(../img/image.png);
+    background-size: contain;
+
+}
+
+/* ---Header--- */
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/1f3a57168add0cd70ca663fb02bab45d\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 50px 74px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 50px 74px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 50px 74px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header__container {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header__title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Triforce';
+    font-size: 60px;
+    color: goldenrod;
+    -webkit-text-stroke: 1px black;
+}
+
+.header__container p {
+    font-size: 22px;
+    font-family: 'The Wild Breath of Zelda';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    order: -1;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--p--);
+    width: 60%;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 5px 10px black;
+}
+
+.header__menu a {
+    color: aliceblue;
+    font-family: 'The Wild Breath of Zelda';
+}
+
+.header__menu a:hover {
+    border-bottom: solid goldenrod 3px;
+    border-radius: 2px;
+    transition: 100ms;
+}
+
+/* ---intro--- */
+#intro {
+    margin: 20px 0;
+}
+
+.intro__banner {
+    font-family: 'The Wild Breath of Zelda';
+    font-size: 26px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://images6.alphacoders.com/126/1267107.jpg);
+    background-position: 100% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    border-radius: 10px;
+    height: 100px;
+    padding: 20px 0;
+}
+
+#about {
+    margin: 0 auto;
+    background-color: var(--b--);
+    width: 80%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#about .section__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__grid {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 30px;
+    font-size: 16px;
+    font-family: 'Zelda Oracles';
+    color: aliceblue;
+    font-style: italic;
+
+}
+
+
+#gallery {
+    background-color: var(--b--);
+    margin: 0 auto;
+    width: 80%;
+}
+
+.section__title {
+    text-align: center;
+    padding: 80px 0 30px 0;
+    font-family: 'The Wild Breath of Zelda';
+    font-size: 36px;
+    color: goldenrod;
+    background-image: url(../img/hyrule_rule.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.section__text {
+    font-size: 16px;
+    color: aliceblue;
+    font-family: 'Zelda Oracles';
+
+}
+
+.gallery__grid {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px 0;
+    width: 80%;
+
+}
+
+.gallery__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    background-color: var(--p--);
+    background-image: url(/img/bglight-base.png);
+    background-position: center;
+    padding: 20px 16px 30px 16px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.gallery__item:hover{
+    background-image: url(/img/bglight-rays1.png);
+
+    scale: 1.03;
+    transition: 350ms;
+}
+
+.gallery__item img {
+    border-radius: 4px;
+}
+
+.gallery__caption {
+    font-family: 'Zelda Oracles';
+    color: goldenrod;
+    font-size: 16px;
+    text-align: center;
+    order: -1;
+}
+
+.btn-more {
+    width: 70%;
+    color: goldenrod;
+    background-color: rgba(35, 167, 103, 0);
+    border: 2px solid goldenrod;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+.btn-more:hover {
+    scale: 1.05;
+    transition: 200ms;
+}
+
+#services {
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--b--);
+}
+
+#services .section__content {
+    font-family: 'Zelda Oracles';
+    font-size: 16px;
+    ;
+    color: aliceblue;
+    text-align: center;
+}
+
+.service__item {
+    padding: 16px;
+}
+
+.service__item h3 {
+    padding: 16px;
+}
+
+#news {
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--b--);
+}
+
+.news__grid {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 20px 0;
+}
+
+.news__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 350px;
+    background-color: var(--p--);
+    padding: 20px 16px 30px 16px;
+    border-radius: 10px;
+    color: rgb(222, 222, 222);
+    text-align: center;
+}
+
+.news__item .btn-more {
+    margin-top: 20px;
+}
+
+#contact {
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--b--);
+    background-image: url(../img/EuQcfKCVoAIUBnX.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.contact__form {
+    background-image: url(https://pbs.twimg.com/media/EuQcfKCVoAIUBnX.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 0% 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(38, 38, 38, 0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact__form input,
+textarea {
+    width: 360px;
+    height: 36px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.contact__form label {
+    font-family: 'Zelda Oracles';
+    color: aliceblue;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 16px;
+}
+
+.contact__form button {
+    width: 100px;
+    color: goldenrod;
+    background-color: rgba(35, 167, 103, 0);
+    border: 2px solid goldenrod;
+    border-radius: 16px;
+    padding: 10px 24px;
+}
+.contact__form button:hover {
+    scale: 1.05;
+    transition: 200ms;
+}
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: var(--p--);
+}
+
+.footer__content {
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.footer__social li {
+    background-color: rgba(77, 255, 234, 0.436);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer__social li:nth-child(1) a {
+    content: url(https://cdn-icons-png.flaticon.com/128/3488/3488299.png);
+    width: 38px;
+}
+
+.footer__social li:nth-child(2) a {
+    content: url(https://cdn-icons-png.flaticon.com/128/5968/5968958.png);
+    width: 38px;
+}
+
+.footer__social li:nth-child(3) a {
+    content: url(https://cdn-icons-png.flaticon.com/128/1384/1384031.png);
+    width: 38px;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    #contact{
+        background-size: 30%;
+    }
+    .contact__form{
+        background-size: 30%;
+
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .header__title{
+        font-size: 50px;
+    }
+
+    #contact{
+        background-image: none;
+    }
+    .contact__form{
+        background-image: none;
+
+    }
+}
+   
+
+/* sm */
+@media (max-width: 640px) {
+    .header__title{
+        font-size: 40px;
+    }
+    .header__container p{
+        font-size: 14px;
+    }
+    .about__grid{
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .intro__banner{
+        font-size: 20px;
+    }
+    .header__menu{
+        width: 75%;
+    }
+    .service__item{
+        font-size: 14px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    
+}
