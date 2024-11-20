@@ -179,7 +179,6 @@ body {
 }
 .gallery__item:hover{
     background-image: url(../img/bglight-rays1.png);
-
     scale: 1.03;
     transition: 350ms;
 }
@@ -256,10 +255,17 @@ body {
     width: 300px;
     height: 350px;
     background-color: var(--p--);
+    background-image: url(../img/bglight-base.png);
+    background-position: center;
     padding: 20px 16px 30px 16px;
     border-radius: 10px;
     color: rgb(222, 222, 222);
     text-align: center;
+}
+.news__item:hover{
+    background-image: url(../img/bglight-rays1.png);
+    scale: 1.03;
+    transition: 350ms;
 }
 
 .news__item .btn-more {
@@ -298,7 +304,10 @@ textarea {
     border-radius: 8px;
     border-style: none;
 }
-
+.contact__form input:hover,textarea:hover{
+    scale: 1.05;
+    transition: 300ms;
+}
 .contact__form label {
     font-family: 'Zelda Oracles';
     color: aliceblue;
@@ -323,6 +332,9 @@ textarea {
     scale: 1.05;
     transition: 200ms;
 }
+
+/* FOOTER */
+
 .footer {
     width: 80%;
     margin: 0 auto;
