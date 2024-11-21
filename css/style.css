@@ -184,6 +184,7 @@ body {
 }
 
 .gallery__item img {
+    width: 100%;
     border-radius: 4px;
 }
 
@@ -271,7 +272,9 @@ body {
 .news__item .btn-more {
     margin-top: 20px;
 }
-
+.news__item img{
+    width: 100%;
+}
 #contact {
     width: 80%;
     margin: 0 auto;
@@ -437,12 +440,7 @@ textarea {
 
 /* xs */
 @media (max-width: 475px) {
-    .gallery__item img{
-        width: 100%;
-    }
-    .news__item img{
-        width: 100%;
-    }
+
     .form__group input,textarea{
         width: 100%;
     }
