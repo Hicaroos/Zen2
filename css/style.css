@@ -3,7 +3,15 @@
 }
 @font-face {
     font-family: 'Zelda Oracles';
-    src: url(../ZeldaOracles.ttf);
+    src: url(../fonts/ZeldaOracles.ttf);
+}
+@font-face {
+    font-family: 'Triforce';
+    src: url(../fonts/Triforce.ttf);
+}
+@font-face {
+    font-family: 'The Wild Breath of Zelda';
+    src: url(../fonts/The\ Wild\ Breath\ of\ Zelda.otf);
 }
 
 :root {
@@ -162,7 +170,7 @@ body {
     justify-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 20px 0;
+    gap: 20px 10px;
     width: 80%;
 
 }
@@ -246,7 +254,7 @@ body {
     justify-content: space-evenly;
     width: 80%;
     flex-wrap: wrap;
-    gap: 20px 0;
+    gap: 20px 10px;
 }
 
 .news__item {
