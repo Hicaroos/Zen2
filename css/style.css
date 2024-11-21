@@ -1,8 +1,10 @@
 * {
     text-decoration: none;
 }
-
-@import url('https://fonts.cdnfonts.com/css/the-wild-breath-of-zelda');
+@font-face {
+    font-family: 'Zelda Oracles';
+    src: url(../ZeldaOracles.ttf);
+}
 
 :root {
     --p--: rgb(28, 28, 28);
@@ -227,7 +229,6 @@ body {
 .service__item {
     padding: 16px;
 }
-
 .service__item h3 {
     padding: 16px;
 }
