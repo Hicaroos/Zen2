@@ -186,6 +186,7 @@ body {
     padding: 20px 16px 30px 16px;
     border-radius: 10px;
     justify-content: space-between;
+    margin: 0 10px;
 }
 .gallery__item:hover{
     background-image: url(../img/bglight-rays1.png);
@@ -271,6 +272,7 @@ body {
     border-radius: 10px;
     color: rgb(222, 222, 222);
     text-align: center;
+    margin: 0 10px;
 }
 .news__item:hover{
     background-image: url(../img/bglight-rays1.png);
